@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafios Targuet Sistemas</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Edu+TAS+Beginner:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <head>
+        <h1 class="title">Desafio prososto pela Targuet Sistemas</h1>
+    </head>
+    <Section>
+        <h2>Quastão 02</h2>
+        <p class="enunciado">Dado a sequência de Fibonacci, onde se inicia por 0 e 1 e o próximo valor sempre será a soma dos 2 valores anteriores (exemplo: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34...), escreva um programa na linguagem que desejar onde, informado um número, ele calcule a sequência de Fibonacci e retorne uma mensagem avisando se o número informado pertence ou não a sequência.</p>
+        <span class="divisor"></span>
+        <div class="response">
+            <form class="form">
+                <input type="number" id="numFibonacci" value="" placeholder="Digite o numero">
+                <button onclick="seqFibonacci()" type="button">Procurar</button>
+            </form>
+        </div>
+        <div class="res">
+            <p id="text"></p>
+        </div>
+    </Section>
+    
+    <section>
+        <h2>Questão 03</h2>
+        <p class="enunciado">Dado um vetor que guarda o valor de faturamento diário de uma distribuidora, faça um programa, na linguagem que desejar, que calcule e retorne:
+            <br>• O menor valor de faturamento ocorrido em um dia do mês;
+            <br>• O maior valor de faturamento ocorrido em um dia do mês;
+            <br>• Número de dias no mês em que o valor de faturamento diário foi superior à média mensal.
+        </p>
+        <span class="divisor"></span>
+        <div class="response">
+            <button type="submit" onclick="gerarJson()">Gerar Json</button>
+        </div>
+        <div class="res">
+            <p id="resA"></p>
+            <p id="resB"></p>
+            <p id="resC"></p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Questão 04</h2>
+        <p class="enunciado">Dado o valor de faturamento mensal de uma distribuidora, detalhado por estado:
+            <br>SP – R$67.836,43
+            <br>RJ – R$36.678,66
+            <br>MG – R$29.229,88
+            <br>ES – R$27.165,48
+            <br>Outros – R$19.849,53
+            
+            <br>Escreva um programa na linguagem que desejar onde calcule o percentual de representação que cada estado teve dentro do valor total mensal da distribuidora.</p>
+        <span class="divisor"></span>
+        <div class="response">
+            <button type="submit" onclick="calcularPorcentagem()">Porcentagem %</button>
+        </div>
+        <div class="res">
+            <p id="resSp"></p>
+            <p id="resRj"></p>
+            <p id="resMg"></p>
+            <p id="resEs"></p>
+            <p id="resOutros"></p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Questão 05</h2>
+        <p class="enunciado">Escreva um programa que inverta os caracteres de um string.</p>
+        <span class="divisor"></span>
+        <div class="response">
+            
+            <input type="text" id="string" value="" placeholder="Digite uma frase">
+            <button type="submit" onclick="reverseString()">Inverter</button>
+        </div>
+        <div class="res">
+            <p id="resInvert"></p>
+        </div>
+    </section>
+    <script src="functions.js"></script>
+</body>
+</html>
