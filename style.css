@@ -1,0 +1,79 @@
+body {
+    font-family: 'Comfortaa', cursive;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    background-color: #333333;
+    margin: 3rem;
+    align-items: center;
+    color: #cecece;
+}
+.title {
+    font-weight: bold;
+    font-size: 3rem;
+    align-self: justify;
+}
+section {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    border: solid 8px #efbb41;
+    padding: 2rem;
+    width: -webkit-fill-available;
+    background-color: #575757
+}
+h2 {
+    font-weight: bold;
+    font-size: 2.2rem;
+    text-align: center;
+}
+.enunciado {
+    color: #cecece;
+    margin-block: 1rem;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+.divisor {
+    height: 5px;
+    width: 100%;
+    background: radial-gradient(#efbb41, transparent);
+    margin-block: 1rem;
+}
+.response {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #333333;
+    padding-block: 2rem;
+}
+
+.form {
+    display: flex;
+}
+
+input {
+    height: 3rem;
+    padding: .5rem;
+    width: 26rem;
+    color: #cecece;
+    font-size: 3rem;
+    background-color: #575757;
+    text-align: center;
+}
+
+button {
+    width: 17rem;
+    height: 68px;
+    background-color: #575757;
+    font-size: 2rem;
+    color: #cecece;
+
+} 
+
+.res {
+    color: #cecece;
+    background-color: #333333;
+    text-align: center;
+    padding: 2rem;
+}
